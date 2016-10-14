@@ -1,0 +1,5 @@
+I have learnt 2 new tags: <hr> which is the horizontal line and <sup> which is the supscript
+I have known some basic html tags like the header tags, p tag as well as the div and form tags. So, 
+I found this project was quite easy in making separate paragraphs with p tags.
+Honestly, in my perspective, this project is not challenging. However, I need to look up for new tags that I don't.
+After all, thanks to this project, I know how to use 2 new tags: <hr> and <sup>

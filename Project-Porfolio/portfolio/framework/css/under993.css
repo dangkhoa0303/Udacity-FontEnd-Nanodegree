@@ -1,26 +1,29 @@
 header {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     padding-bottom: 5px;
     padding-right: 0;
 }
 
-main.row {
-    margin: auto;
-}
-
-.header-text {
-    width: 70%;
-    text-align: left;
+.menu-button-field {
+    width: 15%;
 }
 
 .logo-field {
-    width: 30%;
+    width: 25%;
+}
+
+.header-text {
+    width: 60%;
 }
 
 .projects-section {
     display: flex;
     flex-direction: column;
+}
+
+.header-text {
+    margin-left: 10%;
 }
 
 .project-article {

@@ -1,85 +1,88 @@
 <!DOCTYPE>
 <html>
+
 <head>
-  <title>My profolio website</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
-  
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/under993.css" rel="stylesheet" media="screen and (max-width:993px)">
-  <link href="css/under545.css" rel="stylesheet" media="screen and (max-width:545px)">
-</head>
+    <title>My profolio website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/under993.css" rel="stylesheet" media="screen and (max-width:993px)">
+    <link href="css/under545.css" rel="stylesheet" media="screen and (max-width:545px)"> </head>
 
-<body>
-
-<div class="container-fluid">
-    <!-- Header -->
-    <header class="row">
-    <div class="col-md-3 logo-field">
-        <img class="img-responsive logo" alt="logo" src="http://placehold.it/100x100">
-    </div>
+<body class="container-fluid">
+    <!-- off canvas -->
+    <nav class="dark-blue nav" id="drawer">
+        <h2>DK</h2> </nav>
     
-    <div class="col-md-9 text-right text-uppercase header-text">
-        <h1 class="title-super">Dang Khoa</h1>
-        <h3 class="sub-title">Android/Front-end Developer</h3>
-    </div>
-    </header>
-    
-    <!-- divider -->
-    <div class="row">
-        <div class="col-md-12">
-            <hr>
-        </div>
-    </div>
-    
-    <!-- main -->
-    <main class="row">
-    <section class="row">
-       <div class="col-md-12">
-           <img class="img-responsive main-pic" alt="main_pic" src="http://placehold.it/1140x350">
-       </div>
-    </section>
-    
-    <section class="row">
-       <div class="col-md-12">
-           <h2 class="text-muted">Featured Work</h2>
-       </div>
-    </section>
-    
-    <section class="row projects-section">
-        <article class="col-md-4 text-center project-article">
-            <img class="img-responsive thumbnail" alt="project_pic" src="http://placehold.it/555x300">
-            
-            <div class="project-text">
-            <h3 class="text-uppercase project_title">Movie</h3>
-            <p><a href="https://github.com/dangkhoa0303/PopularMovies">Link to project</a></p>
+    <main class="container-fluid">
+           
+            <!-- Header -->
+            <header class="row">
+                <div class="col-md-1 menu-button-field">
+                    <a id="menu">
+                        <button class="hamburger" id="menu">&#9776</button>
+                    </a>
+                </div>
+                <div class="col-md-3 logo-field"> <img class="img-responsive img-circle logo" alt="logo" src="http://placehold.it/100x100"> </div>
+                <div class="col-md-8 text-right text-uppercase header-text">
+                    <h1 class="title-super">Dang Khoa</h1>
+                    <h3 class="sub-title">Android/Front-end Developer</h3> </div>
+            </header>
+            <!-- divider -->
+            <div class="row">
+                <div class="col-md-12">
+                    <hr> </div>
             </div>
-        </article>
+            <!-- main part -->
+            <section class="row main-row">
+                <div class="row">
+                    <div class="col-md-12"> <img class="img-responsive main-pic" alt="main_pic" src="http://placehold.it/1140x350"> </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-muted">Featured Work</h2> </div>
+                </div>
+                <section class="row projects-section">
+                    <article class="col-md-4 text-center project-article"> <img class="img-responsive thumbnail" alt="project_pic" src="http://placehold.it/555x300">
+                        <div class="project-text">
+                            <h3 class="text-uppercase project_title">Movie</h3>
+                            <p><a href="https://github.com/dangkhoa0303/PopularMovies">Link to project</a></p>
+                        </div>
+                    </article>
+                    <article class="col-md-4 text-center project-article"> <img class="img-responsive thumbnail" alt="project_pic" src="http://placehold.it/555x300">
+                        <div class="project-text">
+                            <h3 class="text-uppercase project_title">Restaurant</h3>
+                            <p><a href="https://github.com/dangkhoa0303/Restaurant">Link to project</a></p>
+                        </div>
+                    </article>
+                    <article class="col-md-4 text-center project-article"> <img class="img-responsive thumbnail" alt="project_pic" src="http://placehold.it/555x300">
+                        <div class="project-text">
+                            <h3 class="text-uppercase project_title">Portfolio</h3>
+                            <p><a href="https://github.com/dangkhoa0303/Udacity-FontEnd-Nanodegree">Link to project</a></p>
+                        </div>
+                    </article>
+                </section>
+            </section>
         
-        <article class="col-md-4 text-center project-article">
-            <img class="img-responsive thumbnail" alt="project_pic" src="http://placehold.it/555x300">
-            
-            <div class="project-text">
-            <h3 class="text-uppercase project_title">Restaurant</h3>
-            <p><a href="https://github.com/dangkhoa0303/Restaurant">Link to project</a></p>
-            </div>
-        </article>
-        
-        <article class="col-md-4 text-center project-article">
-            <img class="img-responsive thumbnail" alt="project_pic" src="http://placehold.it/555x300">
-            
-            <div class="project-text">
-            <h3 class="text-uppercase project_title">Portfolio</h3>
-            <p><a href="https://github.com/dangkhoa0303/Udacity-FontEnd-Nanodegree">Link to project</a></p>
-            </div>
-        </article>
-    </section>
     </main>
     
-</div>
-
+    <script>
+        /*
+         * Open the drawer when the menu ison is clicked.
+         */
+        var menu = document.querySelector('#menu');
+        var main = document.querySelector('main');
+        var drawer = document.querySelector('#drawer');
+        menu.addEventListener('click', function (e) {
+            drawer.classList.toggle('open');
+            e.stopPropagation();
+        });
+        main.addEventListener('click', function () {
+            drawer.classList.remove('open');
+        });
+    </script>
 </body>
+
 </html>

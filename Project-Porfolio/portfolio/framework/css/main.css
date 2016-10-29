@@ -2,6 +2,13 @@ body {
     font-family: 'Vollkorn', serif;
     color: #2d3c49;
     padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
 }
 
 a {
@@ -18,23 +25,76 @@ hr {
 }
 
 header {
-    background-color: #f57c00;
+    background-color: #099dd9;
     padding-bottom: 2%;
     padding-top: 1.5%;
-    padding-left: 3%;
+    padding-left: 1%;
     padding-right: 3%;
     color: white;
 }
 
-main.row {
-    margin: auto;
-    padding-left: 3%;
-    padding-right: 3%;
+/*
+Off canvas style
+*/
+nav {
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);
+    transition: transform 0.3s ease;
 }
 
-.logo {
-    border-radius: 50%;
-    margin-top: 7%;
+nav.open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.dark-blue {
+  background-color: #2a457a;
+  color: #efefef;
+}
+
+@media (min-width: 1200px) {
+    body {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    }
+    
+    nav {
+        position: relative;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    
+    main {
+        width: auto;
+        flex-grow: 1;
+    }
+    
+}
+
+.logo-field {
+    padding-top: 1%;
+}
+
+div.col-md-1 {
+    padding-left: 0;
+}
+
+.hamburger {
+    background: none;
+    top: 0;
+    right: 0;
+    line-height: 45px;
+    color: #fff;
+    border: 0;
+    font-size: 1.6em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
 }
 
 .title-super {
